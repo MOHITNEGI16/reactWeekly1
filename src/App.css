@@ -1,0 +1,55 @@
+h1{
+  text-align: center;
+}
+
+#passcodeGenerator{
+  display: flex;
+  width: 99%;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+}
+#passcodeGenerator input{
+  width: 95%;
+  height: 5vh;
+  font-size: 1rem;
+}
+
+#passcodeGenerator #copy:hover{
+  color: rgb(31, 166, 204);
+}
+
+#passcodeLength{
+  display: flex;
+  width: 97%;
+  justify-content: space-between;
+  margin: auto;
+  padding: 10px;
+  align-items: center;
+}
+#passcodeLength input{
+  height: 1.4rem;
+}
+
+#checkboxDiv{
+  width: 98%;
+  padding: 2rem 0;
+  margin: auto;
+
+}
+
+#checkboxDiv label{
+  font-weight: 500;
+}
+#checkboxDiv #passcodeButton{
+  width: 100%;
+  height: 2.5rem;
+  font-size: 1.2rem;
+  background-color: #0075FF;
+  color: white;
+  border: 0px ;
+}
+
+#checkboxDiv #passcodeButton:hover{
+  background-color: #008000;
+}
